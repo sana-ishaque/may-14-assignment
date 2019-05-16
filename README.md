@@ -1,5 +1,3 @@
-# Mockups May 14
+Published at https://sana-ishaque.github.io/may-14-assignment/
 
-Check the mockups folder and create a pixel perfect clone! 
-
-**Submit your Github Repo URL and Github Pages URL via**  [this form](https://forms.gle/bfZU2NkPr8H6vsy57)
+Styled at min width 992px for large sceens. 
