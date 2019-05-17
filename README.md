@@ -1,3 +1,12 @@
 Published at https://sana-ishaque.github.io/may-14-assignment/
 
-Styled at min width 992px for large sceens. 
+breakpoints are:
+
+@media only screen and (max-width: 400px) {...}
+
+
+@media only screen and (max-width: 600px) {...}
+
+
+
+
