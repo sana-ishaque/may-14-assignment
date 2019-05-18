@@ -1,7 +1,4 @@
 /* write your styles here */
-
-/* marquee */
-
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(images/floral.png);
@@ -19,12 +16,34 @@ section {
     padding: 30px 0px;
 }
 
-body>div {
+/* marquee */
+
+.marquee {
     background-color: #ed484c;
     color: white;
-    padding: 4px 0px;
+    line-height: 20px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee p {
+    margin: 0;
+    padding: 5px 0px;
+    color: white;
+    padding-left: 50%;
     font-size: 12px;
     font-weight: bold;
+    animation: marquee 12s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
 }
 
 mark {
@@ -35,7 +54,7 @@ mark {
 
 /* header */
 
-header {
+#header {
     background-color: #4c4c4c;
     margin-top: 5px;
     display: flex;
@@ -45,14 +64,14 @@ header {
 }
 
 #logo {
-    width: 50px;
-    height: 30px;
+    width: 60px;
+    height: 35px;
     margin-left: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color:#c0c0c0;
+    color: #c0c0c0;
     margin: 0px 15px;
     font-size: 12px;
     font-weight: bold;
@@ -63,7 +82,7 @@ nav a {
 #about {
     text-align: center;
     /* background-image: url(images/floral.png); */
-    background-color: rgba(239, 50, 69, 0.47);
+    background-color: rgba(234, 38, 58, 0.47);
     padding: 10px 0px;
 }
 
@@ -115,9 +134,11 @@ h4 {
 }
 
 #services .fab {
-    font-size: 70px;
+    font-size: 80px;
 }
-
+#services .fab:hover{
+    color: #ed484c;
+}
 figcaption {
     text-align: center;
     font-size: 12px;
@@ -149,7 +170,7 @@ figcaption {
 #container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 70%;
+    max-width: 50%;
     margin: auto;
     margin-top: 10px;
 }
@@ -227,6 +248,7 @@ footer:hover .fas {
     100% {
         transform: scale(1);
     }
+}
 }
 
 @media only screen and (max-width: 600px) {
