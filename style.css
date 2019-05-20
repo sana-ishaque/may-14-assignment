@@ -90,25 +90,26 @@ nav a {
 }
 
 #about h1 {
-    font-size: 3em;
+    font-size: 40px;
     border-bottom: 1px solid black;
     margin: auto;
     padding: 33px 0px;
-    max-width: 47%;
+    max-width: 45%;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 /* h1{
     display: inline-block;
     margin: 0;
 } */
 
-#about .b{
+#about .b {
     font-size: 3em;
 }
 
 #about p {
     margin: auto;
-    max-width: 47%;
+    max-width: 45%;
     text-align: center;
     padding: 15px 0px;
     font-weight: 600;
@@ -192,7 +193,7 @@ figcaption {
 #container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
     margin-top: 10px;
 }
@@ -201,12 +202,13 @@ figcaption {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #container>div {
-    flex: 1 1 160px;
+    flex: 1 1 200px;
     margin: 20px 20px;
+    height: 150px;
 }
 
 .portfolio-img {
@@ -215,8 +217,8 @@ figcaption {
 
 .content {
     position: absolute;
-    top: 25px;
-    left: 50px;
+    top: 30%;
+    left: 30%;
     z-index: 1;
     color: white;
 }
@@ -263,7 +265,8 @@ h5 {
     text-align: center;
     padding-bottom: 20px;
 }
-#contact-us h2{
+
+#contact-us h2 {
     margin-bottom: 10px;
 }
 
@@ -307,40 +310,48 @@ footer:hover .fas {
 
 @media only screen and (max-width: 600px) {
     #about h1 {
-        max-width: 84%;
+        max-width: 92%;
     }
     #about p {
-        max-width: 84%;
+        max-width: 92%;
     }
     .our-services {
         display: block;
     }
     .our-services figcaption {
-        max-width: 270px;
+        max-width: 65%;
         margin: auto;
     }
     #portfolio p {
-        max-width: 75%;
+        max-width: 90%;
     }
     #portfolio h2 {
-        max-width: 75%;
+        max-width: 90%;
     }
     .our-services>div {
         margin: 30px 0px;
     }
+    #container {
+        max-width: 80%;
+    }
+    
+
 }
 
 @media only screen and (max-width: 400px) {
     #about p {
-        max-width: 63%;
+        max-width: 73%;
     }
     #about h1 {
-        max-width: 63%;
+        max-width: 73%;
     }
     #portfolio h2 {
-        max-width: 60%;
+        max-width: 75%;
     }
     #portfolio p {
-        max-width: 60%;
+        max-width: 75%;
+    }
+    .our-services figcaption {
+        max-width: 85%;
     }
 }
