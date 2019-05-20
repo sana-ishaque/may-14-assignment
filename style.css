@@ -1,7 +1,7 @@
 /* write your styles here */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-image: url(images/floral.png);
     margin: 0;
     padding: 0;
@@ -86,23 +86,33 @@ nav a {
     text-align: center;
     /* background-image: url(images/floral.png); */
     background-color: rgba(234, 38, 58, 0.47);
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
 #about h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     border-bottom: 1px solid black;
     margin: auto;
     padding: 33px 0px;
-    max-width: 52%;
+    max-width: 47%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* h1{
+    display: inline-block;
+    margin: 0;
+} */
+
+#about .b{
+    font-size: 3em;
 }
 
 #about p {
     margin: auto;
-    max-width: 52%;
+    max-width: 47%;
     text-align: center;
-    padding: 20px 0px;
+    padding: 15px 0px;
     font-weight: 600;
+    line-height: 1.4;
     border-bottom: 1px solid black;
 }
 
@@ -113,6 +123,7 @@ button {
     font-size: 30px;
     color: #f18d97;
     padding: 15px 53px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* services */
@@ -125,6 +136,7 @@ button {
 
 .our-services {
     display: flex;
+    margin-top: 30px;
 }
 
 #services div {
@@ -133,7 +145,7 @@ button {
 
 h4 {
     font-weight: bold;
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 
 #services .fab {
@@ -142,12 +154,14 @@ h4 {
 
 #services .fab:hover {
     color: #ed484c;
-    transition: color 2s;
+    transition: color 1s;
 }
 
 figcaption {
     text-align: center;
     font-size: 12px;
+    width: 85%;
+    margin: auto;
 }
 
 /* portfolio */
@@ -160,8 +174,8 @@ figcaption {
 
 #portfolio>h2 {
     border-bottom: 1px solid black;
-    max-width: 50%;
-    padding-bottom: 20px;
+    max-width: 45%;
+    padding-bottom: 30px;
     margin: auto;
 }
 
@@ -169,8 +183,10 @@ figcaption {
     border-bottom: 1px solid black;
     margin: auto;
     text-align: center;
-    padding: 10px 0px;
-    max-width: 50%;
+    padding: 15px 0px;
+    max-width: 45%;
+    font-weight: bold;
+    line-height: 1.4;
 }
 
 #container {
@@ -192,9 +208,11 @@ figcaption {
     flex: 1 1 160px;
     margin: 20px 20px;
 }
-.portfolio-img{
-    position:relative;
+
+.portfolio-img {
+    position: relative;
 }
+
 .content {
     position: absolute;
     top: 25px;
@@ -202,40 +220,51 @@ figcaption {
     z-index: 1;
     color: white;
 }
-h5{
+
+h5 {
     margin: 0px 0px 10px 0px;
 }
-.content i{
+
+.content i {
     font-size: 10px;
     border: 0.5px solid white;
     border-radius: 20px;
     padding: 5px;
 }
-.content i:hover{
-    color: #212121;
+
+.content i:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
 }
+
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    height:w 100%;
+    height: w 100%;
     width: 100%;
     opacity: 0;
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.85);
 }
-.portfolio-img:hover .overlay{
+
+.portfolio-img:hover .overlay {
     opacity: 1;
     border-radius: 5px;
 }
+
 /* contact us */
 
 #contact-us {
     background-color: rgba(95, 140, 138, 0.42);
     text-align: center;
     padding-bottom: 20px;
+}
+#contact-us h2{
+    margin-bottom: 10px;
 }
 
 #contact-us .fab {
@@ -253,6 +282,7 @@ h5{
 #contact-us i:hover {
     background-color: #212121;
     color: #fcdea6;
+    transition: 0.5s;
 }
 
 /* footer */
@@ -274,7 +304,6 @@ footer:hover .fas {
     color: red;
     transition: 2s;
 }
-
 
 @media only screen and (max-width: 600px) {
     #about h1 {
