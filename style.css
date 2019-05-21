@@ -55,15 +55,13 @@ mark {
 
 /* header */
 
-#header {
+#nav {
     background-color: #4c4c4c;
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
     padding: 5px 0px;
     align-items: center;
-    position: sticky;
-    top: 0;
 }
 
 #logo {
