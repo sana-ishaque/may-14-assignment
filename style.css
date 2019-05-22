@@ -8,9 +8,10 @@ body {
 }
 
 h2 {
-    font-family: 'Lobster', cursive;
-    font-weight: 400;
+    font-family: 'Sofia', cursive;
+    font-weight: bold;
     margin: 0;
+    font-size: 30px;
 }
 
 section {
@@ -91,7 +92,7 @@ nav a {
 }
 
 #about h1 {
-    font-size: 40px;
+    font-size: 50px;
     border-bottom: 1px solid black;
     margin: auto;
     padding: 33px 0px;
@@ -113,7 +114,7 @@ nav a {
     max-width: 45%;
     text-align: center;
     padding: 15px 0px;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 1.4;
     border-bottom: 1px solid black;
 }
@@ -161,9 +162,10 @@ h4 {
 
 figcaption {
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     width: 85%;
     margin: auto;
+    font-weight: bold;
 }
 
 /* portfolio */
@@ -320,7 +322,7 @@ footer:hover .fas {
         display: block;
     }
     .our-services figcaption {
-        max-width: 65%;
+        max-width:60%;
         margin: auto;
     }
     #portfolio p {
@@ -333,7 +335,7 @@ footer:hover .fas {
         margin: 30px 0px;
     }
     #container {
-        max-width: 80%;
+        max-width: 85%;
     }
     
 
