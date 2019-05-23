@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url(images/floral.png);
     margin: 0;
     padding: 0;
 }
@@ -80,6 +79,9 @@ nav a {
     margin: 0px 15px;
     font-size: 12px;
     font-weight: bold;
+}
+section{
+     background-image: url(images/floral.png);
 }
 
 /* about section */
